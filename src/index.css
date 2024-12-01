@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+:root {
+  --main-color: #18912a;
+  --acc-color: #00F0FF;
+}
+
+body {
+  background-color: var(--main-color);
+}
+
+.main-color {
+  color: var(--main-color) !important;
+}
+
+.acc-color {
+  color: var(--acc-color) !important;
+}
+
+h1, h2 {
+  font-family: "Chakra Petch", sans-serif;
+  color: #167224;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.font-main {
+  font-family: "Chakra Petch", sans-serif;
+  font-style: normal;
+}
+
+.cp-btn--black {
+  border-image: url('./assets/cut-btn.svg') 0 20 fill;
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+}
+.d-flex-center{
+  display:flex;
+  justify-content: center;
+}
+.text-green{
+  color: #0dfd41;
+  text-shadow: 1px 1px 2px black;
+}
+.cp-btn {
+  background-color: transparent;
+  font-family: "Chakra Petch", sans-serif;
+  align-items: center;
+  border-style: solid;
+  border-width: 0 20px;
+  cursor: pointer;
+  display: inline-flex;
+  height: 55px;
+  justify-content: center;
+  min-width: 232px;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bold;
+  -webkit-user-select: none;
+  user-select: none;
+}
+
+.links-nav {
+  border: 2px solid var(--main-color);
+  padding: 5px 40px;
+  background-color: rgba(0,0,0, 0.4);
+  font-family: "Chakra Petch", sans-serif;
+  text-transform: uppercase;
+  font-size: 18px;
+}
+
+.footer {
+  background: #000;
+  padding-bottom: 28px;
+  position: relative;
+}
+
+.footer a {
+  color: var(--acc-color);
+  font-weight: bold;
+  font-family: "Chakra Petch", sans-serif;
+}
+
+.icons {
+  font-size: 30px;
+}
+
+.footer::before {
+  background: url('../src/assets/razor-black.png');
+  content: "";
+  height: 39px;
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: -39px;
+  -webkit-transform: rotate(180deg);
+  transform: rotate(180deg);
+}
+
+.nav-link:hover {
+  color: white;
+}
+
+
+
+
+
